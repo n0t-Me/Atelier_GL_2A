@@ -1,0 +1,26 @@
+<book>
+<title>Docbook tuto</title>
+<chapter>
+      <title>Introduction</title>
+      <section>
+            <title>C'est quoi Docbook?</title>
+            <para>Docbook est un language XML</para>
+      </section>
+      <section>
+            <title>Pourquoi Docbook?</title>
+            <para>Creer des documents techniques<footnote><para>par exemple la documentation d'un language de programmation</para></footnote> sans se concerner par la presentation</para>
+      </section>
+</chapter>
+<chapter>
+      <title>Example de code</title>
+      <para>Voici un Hello DocBook en Python!
+      <programlisting>
+            def main():
+                  print("Hello DocBook")
+
+            if __name__ == '__main__':
+                  main()
+      </programlisting>
+      </para>
+</chapter>
+</book>

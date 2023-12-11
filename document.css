@@ -1,0 +1,22 @@
+:root {
+  font-family: DejaVu Sans;
+}
+
+.chapter .titlepage h1 {
+  color: red;
+}
+
+.chapter .titlepage h2 {
+  color: blue;
+}
+
+.programlisting {
+  border: 1px solid black;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.toc {
+  font-style: italic;
+  color: orange;
+}
